@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://polkafans.github.io</id>
     <title>PolkaFans</title>
-    <updated>2019-06-06T23:46:41.331Z</updated>
+    <updated>2019-06-06T23:52:20.318Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://polkafans.github.io"/>
     <link rel="self" href="https://polkafans.github.io/atom.xml"/>
@@ -10,11 +10,4 @@
     <logo>https://polkafans.github.io/images/avatar.png</logo>
     <icon>https://polkafans.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, PolkaFans</rights>
-    <entry>
-        <title type="html"><![CDATA[万字长文说透Polkadot架构]]></title>
-        <id>https://polkafans.github.io/post/wan-zi-chang-wen-shuo-tou-polkadot-jia-gou</id>
-        <link href="https://polkafans.github.io/post/wan-zi-chang-wen-shuo-tou-polkadot-jia-gou">
-        </link>
-        <updated>2019-06-06T23:35:35.000Z</updated>
-    </entry>
 </feed>

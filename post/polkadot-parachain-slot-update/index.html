@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Polkadot平行链插槽更新 | PolkaFans</title>
+<meta name="description" content="We are Polkadot fans.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://polkafans.github.io/favicon.ico?v=1559997230833">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://polkafans.github.io/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://polkafans.github.io">PolkaFans</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>Polkadot平行链插槽更新</h1>
+            <p class="article-meta">
+              2019-06-08
+              
+                <a href="https://polkafans.github.io/tag/ gov" class="badge secondary">
+                  治理
+                </a>
+              
+            </p>
+            
+              <img src="https://trello-attachments.s3.amazonaws.com/5aceaf1164c86a15f5956cda/5cf2fea42b91994261cb131b/abb3f998707920aacfa03c1f02eac6b2/image.png" alt="Polkadot平行链插槽更新">
+            
+            <div class="post-content">
+              <p>Polkadot平行链插槽更新
+微信公众号 头等仓  Polkadot社区</p>
+<p><img src="https://trello-attachments.s3.amazonaws.com/5aceaf1164c86a15f5956cda/5cf2fea42b91994261cb131b/abb3f998707920aacfa03c1f02eac6b2/image.png" alt="image.png"></p>
+<p>随着波卡主网发布时间的接近，Web3基金会收到了很多关于平行链的问题：如何进行初始分配以及如何成为平行链。以下是一份工作文件，包括发布时平行链公平分配的计划草案，以及波卡未来将如何处理额外的平行链插槽可用性的说明。</p>
+<!-- more -->
+<p>之前我们已将此文档的初稿发送给了许多构建在波卡上的项目，现在我们将其提供给更大的波卡社区，欢迎其他平行链构建者和利益相关者的反馈。</p>
+<p>平行链的租赁机制仍在研究、测试和部署中。我们希望各项目在这一进程中能够为其作出贡献。系统可能会大改，但我们可以保证的是：</p>
+<ul>
+<li>会有一定数量的平行链插槽，创世区块时插槽数量较低，但会慢慢增加。</li>
+<li>会有未经许可的，插槽出租的市场行为。为了确保平行链插槽的公平分配，我们决定使用拍卖的方式，任何人都可以参加。拍卖方式为通过区块链修改的蜡烛式拍卖，具有确定的随机结束时间。</li>
+<li>如果有人（个人或智能合约）赢得拍卖，则可以无需任何许可，直接部署他们的平行链。</li>
+<li>平行链插槽的使用时间有限。</li>
+<li>由Web3基金会管理的特殊“公共利益”平行链的少量插槽，会保留一段时间。</li>
+</ul>
+<p>这些观点在创世区块诞生之前基本不改变，然而要精确估计平行链插槽的数量及其成本是极其困难的。</p>
+<h2 id="波卡平行链">波卡平行链</h2>
+<p>平行链是我们用来描述构成波卡结构的外部系统（不一定是区块链）的术语。区块链可以以两种主要方式与波卡交互：作为原生平行链或是通过桥接平行链。要想部署成原生平行链，团队可以使用Cumulus框架（基于Substrate）构建，从头开发或使用即将推出的平行链开发工具包之一。原生平行链可以使用极快的跨链消息传递并共享波卡的安全性。这样就无需通过通货膨胀来激励矿工或staker保护网络。或者，如果区块链有一组遗留下来的设计决策，使其难以与波卡互联，那么它可以保留自己的共识和终结机制，并通过托管在平行链上的桥梁进行连接，从而成为“桥接链”。要使桥接链和波卡网络进行通信，必须先完成桥接链，然后才能安全传递消息。多个区块链将很可能能够共享同一个桥接平行链，从而降低其插槽的成本。</p>
+<h2 id="为什么平行链数量有限">为什么平行链数量有限？</h2>
+<p>平行链需要耗费资源来确保其安全性和持久性。由于波卡网络的资源有限，因此平行链插槽的数量也是有限的。这与其他网络类似，它们有计算吞吐量的限制，并添加了手续费和其他管理措施。虽然尚不清楚波卡“版本1”的设计将支持多少个平行链链，但由于系统的各个方面还有待优化，创世区块时能够支持的链的实际数量自然会减少。正如最初的波卡白皮书所言，波卡“版本1”中存在一些关键的可扩展性制约因素，特别是消息队列的二次负荷，导致了自然的上限限制。必须绑定DOT以获得一个平行链插槽，因此平行链的价值受到威胁，并且附加一条无用的链的成本是昂贵的。</p>
+<h2 id="平行链推出的目标">平行链推出的目标</h2>
+<p>我们目前预计波卡将推出一些平行链插槽。波卡的平行链插槽将从大约5个增加到50到200个插槽，因为在运营的头一两年中进行了各种实现优化。以下推出计划按重要性排序：</p>
+<p>1.确保波卡中继链的安全性。
+2.首先考虑那些能给波卡带来最大价值的项目。
+3.维持平行链插槽的供需平衡，以便有适当的经济激励成为网络上的验证人。
+4.随着网络规模的扩大，允许实验和新用例扩展。</p>
+<p>此推出计划中包括在创世区块发布的“创世链”，在创世区块后可对平行链进行拍卖。以下为详细内容：</p>
+<p>对于创世区块来说，不太可能有很多的平行链。在有平行链运营商的情况下，插槽所有者将由Web3基金会以以下两种方式确定：</p>
+<p>Web3基金会赞助了某些公共利益链，包括桥接链和基本的智能合约链。如果这些是在创世区块就准备就绪的，那么它们将被包括在内。</p>
+<p>Web3基金会将进行一个或多个链下拍卖，其形式与以下描述的后创世链上拍卖类似，允许团队租用插槽，以获得比其他人更多的DOT。</p>
+<p>公共利益链包括Web3基金会认为具有战略重要性的链或已经做出开发承诺的链。包括：</p>
+<ul>
+<li>以太坊-波卡桥接链</li>
+<li>比特币-波卡桥接链</li>
+<li>Edgeware，一个开放的基于Wasm的智能合约平台</li>
+<li>关键基础设施项目，例如DEX或稳定币。</li>
+</ul>
+<h2 id="平行链拍卖">平行链拍卖</h2>
+<p>绝大多数的链将在公开拍卖中出售，任何人都可以参与。</p>
+<p>平行链拍卖具有永久的持续可用性，如果您的项目需要波卡的插槽，那么欢迎参与竞拍。随着时间的推移，插槽需求增加，治理机制可以添加新的插槽。不过，如果平行链太多，则可以减少插槽总数。</p>
+<p>平行链插槽是以去许可的“蜡烛拍卖”形式进行拍卖的，以确保它在区块链上是公平及安全的。这种机制使得参与者很难通过拍卖来抢先运行系统或背叛诚实的竞拍者，从而使得拍卖变得不公平。</p>
+<p>竞拍者可以是希望续租或延长现有平行链租约的老手，也可以是希望部署一条平行链的新手。在后一种情况下，这些新手可以是常规的波卡账户（即直接在中继链上持有资金的账户），也可以来自平行链本身，可以通过智能合约进行竞拍。因此，这甚至使得社区能够通过智能合约来筹集资金，以确保项目的平行链插槽可以为支持者提供一些奖励。</p>
+<h2 id="平行链插槽的获取过程">平行链插槽的获取过程</h2>
+<p>如前所述，滚动可用性的结构使得总是有用于拍卖的平行链。</p>
+<p>从竞拍者购买东西的意义上来说，这些并不是真正的销售。他们只是将一笔DOT代币存入定期，作为押金。因此，租赁的有效成本仅仅是机会成本，可以将其建模为通货膨胀导致的贬值。在平行链租期结束时，押金将被退还。</p>
+<p>平行链插槽以六个月的“租期”为划分。所有插槽的租期都是同时开始和结束的，因此对于任何给定的租期，只有一些相同的插槽。</p>
+<p>拍卖是为了在未来两年的租期中，有权在四期中的每一期占有一个平行链插槽。这4个六月租期可能全部属于同一个竞拍者（从下一个租期开始获得两年的不间断租期），也可能属于4个单独的竞拍者，或者其它。</p>
+<p>此格式允许各种用例；某新项目可能只想购买第一期，“试用”六个月的平行链。或者，某项目可能想竞拍四期来获得两年的插槽使用权。又或者，在某项目开发完成后的12个月内，竞拍最后两期，获得12个月的使用期限。现有平行链可能都想通过赢得最后的插槽来稳住其位置，从而始终将其剩余租期保持在18至24个月之间。</p>
+<p>拍卖机制旨在最大限度地增加整个两年期间持有的DOT数量，因此在任何给定时段的租期内，出价最高的竞拍者可能并不总是“赢家”。</p>
+<p>以下示例场景和图1说明了拍卖机制的工作原理。假设只有一个平行链插槽可用（假设所有初始拍卖都是如此）：
+Charlie在整个四期内存入75个DOT。
+Dave存入100个DOT，但仅限最后两期（他不在乎前两个）。
+Emily存入40个DOT，但仅限前两期（她不想要最后两个）。
+现在，我们看看如何对这些出价进行组合，为一个或多个竞拍者分配到他们想要的插槽。有以下四种分配方式：</p>
+<p>Charlie赢得竞拍，Dave和Emily输了。在这种情况下，75个DOT存放四期，四期平均持有75个DOT。</p>
+<p>Dave赢得竞拍，Charlie和Emily输了。在这种情况下，100个DOT仅存放两期，平均每期持有100 * 2/4 = 50个DOT。这太糟糕了。</p>
+<p>Emily赢得竞拍，Charlie和Dave输了。在这种情况下，40个DOT仅存放两期，平均每期持有40 * 2/4 = 20个DOT。这也太糟糕了。</p>
+<p>最后一种情况，我们可以让Dave和Emily都赢得竞拍，Charlie输了。在这种情况下，100个DOT存放在前两期，40个DOT存放在另两期，因此四期平均持有（100 * 2 + 40 * 2）/ 4 = 70个DOT。这数字挺好的，但还不如只分配给Charlie。</p>
+<p><img src="https://trello-attachments.s3.amazonaws.com/5aceaf1164c86a15f5956cda/5cf2fea42b91994261cb131b/9302aab4177bb1778aed4e9f0b3b4650/image.png" alt="image.png"></p>
+<p>因此，虽然Dave的出价最高，但我们计算后发现，由于他只竞拍两个租期，他需要与Emily共享插槽，而Emily在另两个租期的出价要比Emily低得多。Dave和Emily的出价加起来都没有Charlie在整个四期的出价高，因此Charlie分配到了插槽。</p>
+<h3 id="参与拍卖">参与拍卖</h3>
+<p>所有平行链插槽拍卖将以DOT进行。希望部署平行链的项目可以通过以下几种方式获得DOT：</p>
+<p>发行自己的平行链代币并在公开市场上交换成DOT</p>
+<p>使用现有资源在公开市场上购买DOT</p>
+<p>通过众筹来筹集DOT</p>
+<p>申请Web3基金会资助</p>
+<p>此外，一些项目可能会将自己聚合成一条单一链来分担一个平行链插槽成本。例如，几个桥梁可以合理共享一个平行链插槽。</p>
+<h3 id="平行链成本">平行链成本</h3>
+<p>就DOT代币的绝对意义而言，平行链插槽是免费的：固定s插槽所需的DOT代币仅作为押金持有，在平行链使用期结束后就会退回。对于那些拥有资本（尤其是加密资本）的“闲散”项目，以及那些已经对获得波卡网络的经济敞口持乐观态度的项目，这个“费用”几乎为零。</p>
+<p>对于那些尚未被波卡收购或没有预先储备资本的项目，租赁平行链插槽的有效“费用”仅仅是持有DOT（而非任何其他资产）的机会成本。有两件事需要注意：一个项目要想作为平行链获得成功，它必须为波卡网络增加效用，从而提升其价值主张和整体用户基础。网络效应指的就是，这些变化的经济效应应该是超线性的。因此，平行链项目在其使用期内希望持有DOT以获取其自身成功的价值是合理的。</p>
+<p>其次，在波卡网络中，DOT代币需要进行四项活动：治理、平行链租赁、交易和stake。已经用于平行链租赁的DOT押金不能用于这四项活动中的其中三项（治理仍然是可以的），因此我们可以将实际价格视为无法与其进行交易的机会成本，租赁插槽和stake。尽管前两者的价值不确定，但后者是可控的，因为它既得到了通胀的回报，又被用作抵御通胀的堡垒。</p>
+<p>至于波卡的创世区块，通过每年将发行基数增加10%，预计将按比例支付高达20%的staking奖励。（这远远低于以太坊的创世区块通货膨胀率，其年通胀率约为30%，这是由于以太坊使用的浪费证明中的BABE/GRANDPA共识效率。）因此，不staking的有效价格实际上忽略了奖励，忽略了不承担风险和不需要工作的事实。根据风险偏好、领域专业知识、劳动力成本、staking系统效率和DOT估值，按比例计算的20%只能被认为是理论上的最大值：基于DOT的实际机会成本可能要小得多。根据初步模型，我们估计，一个DOT持有者每年为一条平行链提供支持的实际成本大约在10万至20万美元之间，而且在最初的扩展阶段很可能要低得多。</p>
+<p>相比之下，我们注意到，维持主要区块链（例如Cosmos，Tezos和EOS）的年成本为数千万美元，而以太坊和比特币则需数十亿美元。因此，波卡的维护成本整整降低了3到5个数量级，但却可以在主链之间提供快速、任意、去信任的消息传递。</p>
+<p>前300名加密货币市值均超过1000万美元，日交易量几乎都超过10万美元。假设挖矿、staking或交易成本的保守年通胀率为2％，那么即使是最保守的加密项目，每年在维护支出方面的花费也超过了20万美元。大多数项目以此价格租赁波卡的平行链插槽，而不是使用基于通胀的共识，这样做是有经济优势的，因为共识成本高昂、孤立，而且往往不安全。</p>
+<p>进一步的研究和建模将有助于得出获取波卡插槽的DOT成本。</p>
+<p>我们知道，使用平行链连接到波卡网络的成本不是一个小数目。但当我们通过增加平行链插槽数量和开发更多的桥梁和轻型桥梁来扩展网络时，总成本应该会降低。总的来说，与通过需要做出独立资本分配决策的完全拥有和独立引导的矿工/验证者来集合保护网络相比，波卡的共享安全性为网络安全提供了一种更节省成本的方式。</p>
+<h2 id="治理">治理</h2>
+<p>在波卡中，没有明确的治理机制来阻塞或移波卡中的平行链。也就是说，波卡本质上是一个可治理的系统，因此治理机制可以将区块链升级和修改为它所决定的任何内容。出现有争议的决策是可能的，但由于它需要包括委员会、验证者和长期代币持有者基础在内的多个利益相关者团体的支持，我们估计它们出现的实际可能性与主要网络遭受恶意硬分叉的几率相当。在区块链的背景下，治理是新颖的：无可否认，波卡是众多前沿技术的实验，虽然我们希望通过审计、建模和测试来降低风险，但我们永远无法预知未来可能出现的突发情况。如果实验出了差错，硬分叉不可避免得作为最后的手段。</p>
+<p>正如一条平行链无法移动用于插槽的DOT押金，租约是他们的，他们想做什么就做什么。有缺陷的波卡平行链（例如状态转换函数允许无限循环、内存轰炸或充斥着垃圾邮件的平行链）将被网络验证者识别并禁用。就像波卡上采用了波卡共识的独立链一样，离开了此网络也就放弃了波卡共识。这些以前的平行链就变成了独立的链，自身必须为其持续的生存能力和安全性提供保障</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://polkafans.github.io/images/avatar.png?v=1559997230833" class="no-responsive avatar">
+    <div class="text-muted">We are Polkadot fans.</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://polkafans.github.io/post/polkadot-parachain-slot-update">Polkadot平行链插槽更新</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://polkafans.github.io/tag/ gov" class="badge warning">
+          治理
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://polkafans.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>

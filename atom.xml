@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://polkafans.github.io</id>
     <title>PolkaFans</title>
-    <updated>2019-06-08T12:33:54.067Z</updated>
+    <updated>2019-06-11T00:27:24.258Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://polkafans.github.io"/>
     <link rel="self" href="https://polkafans.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://polkafans.github.io/images/avatar.png</logo>
     <icon>https://polkafans.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, PolkaFans</rights>
+    <entry>
+        <title type="html"><![CDATA[万字长文说透Polkadot架构]]></title>
+        <id>https://polkafans.github.io/post/polka-architecture-liuyi</id>
+        <link href="https://polkafans.github.io/post/polka-architecture-liuyi">
+        </link>
+        <updated>2019-06-10T23:19:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>本文来自于一块链习资深讲师刘毅在上周的《区块链技术公开课100讲》第24讲中，围绕《Polkadot架构解析——下一代DApp开发技术评述》主题，和大家深入探讨了 DApp 开发的现状、公链的三种扩容思路、以太坊正朔——Serenity、Gavin Wood的新征程——Polkadot、殊途同归——Cosmos、DApp 开发比较、网络拓扑比较、辨析“跨链”、下一代 DApp 开发技术选择等 9 个方面的复盘内容。</p>
+<p>刘毅：Random Capital合伙人，清华大学硕士，区块链和大数据技术专家。20年多种资本市场投资经验，比特币早期投资者。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本文来自于一块链习资深讲师刘毅在上周的《区块链技术公开课100讲》第24讲中，围绕《Polkadot架构解析——下一代DApp开发技术评述》主题，和大家深入探讨了 DApp 开发的现状、公链的三种扩容思路、以太坊正朔——Serenity、Gavin Wood的新征程——Polkadot、殊途同归——Cosmos、DApp 开发比较、网络拓扑比较、辨析“跨链”、下一代 DApp 开发技术选择等 9 个方面的复盘内容。</p>
+<p>刘毅：Random Capital合伙人，清华大学硕士，区块链和大数据技术专家。20年多种资本市场投资经验，比特币早期投资者。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Polkadot平行链插槽更新]]></title>
         <id>https://polkafans.github.io/post/polkadot-parachain-slot-update</id>
